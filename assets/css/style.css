@@ -1,0 +1,95 @@
+
+body{
+    background-color:white;
+  }
+  .start{
+      padding:0;		
+  }
+  
+  h2{ 
+      text-align: center;
+      
+  }
+  .header{
+      height: 200px;
+      width: 100%;
+  
+  }
+  .startBtn{
+      width: 500px;
+  }
+  .trivSection{ 
+      margin-top: 100px;
+      text-align: center;
+   }
+   .question, .answers, .rightAnswer,  .gameOver, .score{
+      font-family: "Times New Roman", Times, serif;
+       padding: 30px;
+       font-size: 25px;
+       margin: 10px;
+   }
+   .wrongAnswer{
+      font-family: "Times New Roman", Times, serif;
+      margin: 10px;
+      padding: 30px;
+       color: #DE1122;
+       font-size: 33px;
+   }
+  
+   /*buttons*/
+   .redBtn { 
+    color:black; 
+    background-color: lightgreen;
+    border-color: #000000;
+    
+  
+  } 
+   
+  .redBtn:hover, 
+  .redBtn:focus, 
+  .redBtn:active, 
+  .redBtn.active, 
+  .open .dropdown-toggle.redBtn { 
+    color: #FFFFFF; 
+    background-color: #851515; 
+    border-color: #000000; 
+  } 
+   
+  .redBtn:active, 
+  .redBtn.active, 
+  .open .dropdown-toggle.redBtn { 
+    background-image: none; 
+  } 
+   
+  .redBtn.disabled, 
+  .redBtn[disabled], 
+  fieldset[disabled] .redBtn, 
+  .redBtn.disabled:hover, 
+  .redBtn[disabled]:hover, 
+  fieldset[disabled] .redBtn:hover, 
+  .redBtn.disabled:focus, 
+  .redBtn[disabled]:focus, 
+  fieldset[disabled] .redBtn:focus, 
+  .redBtn.disabled:active, 
+  .redBtn[disabled]:active, 
+  fieldset[disabled] .redBtn:active, 
+  .redBtn.disabled.active, 
+  .redBtn[disabled].active, 
+  fieldset[disabled] .redBtn.active { 
+    background-color: green; 
+    border-color: #000000; 
+  } 
+   
+  .redBtn .badge { 
+    color: blue; 
+    background-color: #FFFFFF;
+  }
+  img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 200 px;
+      height: 200 px;
+  }
+  
+  
